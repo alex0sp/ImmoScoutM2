@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ImmoScout €/m2 Badge",
+  "version": "0.1.0",
+  "description": "Adds a €/m2 badge to ImmoScout24 search results.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.immobilienscout24.de/*"],
+      "js": ["content-script.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
