@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy – ImmoScout €/m² Badge</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.55;
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1.5rem 1.25rem 3rem;
+        color: #111827;
+        background: #fafafa;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #e5e7eb;
+          background: #111827;
+        }
+        a {
+          color: #93c5fd;
+        }
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-top: 0;
+      }
+      h2 {
+        font-size: 1.1rem;
+        margin-top: 1.75rem;
+      }
+      p,
+      ul {
+        margin: 0.65rem 0;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      .meta {
+        font-size: 0.875rem;
+        opacity: 0.85;
+        margin-bottom: 1.5rem;
+      }
+      a {
+        color: #2563eb;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+      <strong>ImmoScout €/m² Badge</strong> (Chrome extension)<br />
+      Last updated: 21 April 2026
+    </p>
+
+    <p>
+      This policy describes how the extension handles information. The
+      extension is not affiliated with ImmoScout24 or ImmobilienScout24.
+    </p>
+
+    <h2>Single purpose</h2>
+    <p>
+      The extension has one purpose: on pages of
+      <strong>https://www.immobilienscout24.de</strong> it reads price and
+      living-area information that is already visible on listing cards,
+      computes an approximate price per square metre (€/m²), and displays a
+      small badge on listing images. Optional settings let you choose colours
+      for different price bands.
+    </p>
+
+    <h2>Where the extension runs</h2>
+    <p>
+      Executable code runs only on <strong>www.immobilienscout24.de</strong>, as
+      declared in the extension manifest. It does not inject scripts into
+      other websites.
+    </p>
+
+    <h2>Data processing on your device</h2>
+    <p>
+      To compute €/m², the extension reads text from the page’s Document Object
+      Model (DOM)—for example values shown in listing details—<strong>only in
+      your browser</strong>. That processing happens locally to draw the
+      badge. The extension <strong>does not</strong> send page content,
+      browsing history, or badge calculations to the developer’s servers,
+      because <strong>the extension does not operate a backend service</strong>
+      for this functionality.
+    </p>
+
+    <h2>Storage (chrome.storage.sync)</h2>
+    <p>
+      Your colour preferences (thresholds, “above range” colour, and whether
+      colours are enabled) are saved using the browser’s
+      <code>chrome.storage.sync</code> API. If you use Chrome sync while signed
+      into Google, Google may sync that small settings object across your
+      devices according to
+      <a href="https://policies.google.com/privacy" rel="noopener noreferrer"
+        >Google’s privacy policy</a
+      >. The developer does not receive a copy of that data from the extension.
+    </p>
+
+    <h2>Remote code</h2>
+    <p>
+      All JavaScript runs from files packaged with the extension. The
+      extension does not load or execute code from remote URLs, and does not use
+      <code>eval()</code> on remote strings for its core behaviour.
+    </p>
+
+    <h2>Analytics and advertising</h2>
+    <p>
+      The extension does not include analytics SDKs, advertising, or tracking
+      pixels controlled by the developer.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      The extension is not directed at children, and it does not knowingly
+      collect personal information from children.
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      This policy may be updated when the extension changes. The “Last updated”
+      date at the top will be revised accordingly.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about this policy or the extension:
+      <a href="mailto:founder@zlothai.com">founder@zlothai.com</a>
+    </p>
+  </body>
+</html>
