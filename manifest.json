@@ -9,6 +9,15 @@
     "128": "icon-128.png",
     "256": "icon-256.png"
   },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["https://www.immobilienscout24.de/*"],

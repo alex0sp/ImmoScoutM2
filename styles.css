@@ -16,4 +16,5 @@
   font-weight: 600;
   line-height: 1;
   pointer-events: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }

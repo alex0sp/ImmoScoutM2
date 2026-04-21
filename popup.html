@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>€/m² Badge – Farben</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Preis-Badge Farben</h1>
+    <div class="toggle-row">
+      <input type="checkbox" id="colors-enabled" checked />
+      <label for="colors-enabled">Badge-Farben verwenden</label>
+    </div>
+    <p class="hint">
+      Bis X €/m²: erste passende Farbe. Darüber: „Über allen Schwellen“.
+    </p>
+
+    <div id="threshold-list" class="threshold-list"></div>
+
+    <div class="toolbar">
+      <button type="button" id="add-threshold" class="btn btn-secondary">
+        Schwellwert hinzufügen
+      </button>
+    </div>
+
+    <div class="above-row">
+      <label for="above-color">Über allen Schwellen</label>
+      <input type="color" id="above-color" value="#ef4444" />
+    </div>
+
+    <p id="status" class="status status-bar" aria-live="polite"></p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
