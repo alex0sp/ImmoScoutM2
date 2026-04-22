@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ImmoScout €/m2 Badge",
-  "version": "0.1.0",
-  "description": "Adds a €/m2 badge to ImmoScout24 search results.",
+  "name": "ImmoScout €/m² Preis-Badge",
+  "version": "1.0.0",
+  "description": "Zeigt den Preis pro m² als Badge in ImmoScout24-Suchergebnissen an.",
   "icons": {
     "16": "icon-16.png",
     "48": "icon-48.png",
