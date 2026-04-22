@@ -223,8 +223,8 @@
     const maxFormatted = numberFormatter.format(maxPerM2);
     const badgeText =
       minFormatted === maxFormatted
-        ? `€${minFormatted}/m2`
-        : `€${minFormatted} - ${maxFormatted}/m2`;
+        ? `${minFormatted}€/m²`
+        : `${minFormatted}€ - ${maxFormatted}€/m²`;
 
     if (card.dataset.immoBadge === "1") {
       const badgeInCard = card.querySelector(`.${BADGE_CLASS}`);

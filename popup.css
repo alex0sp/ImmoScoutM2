@@ -44,13 +44,6 @@ h1 {
   user-select: none;
 }
 
-.hint {
-  margin: 0 0 12px;
-  font-size: 11px;
-  line-height: 1.35;
-  color: #6b7280;
-}
-
 .threshold-list {
   display: flex;
   flex-direction: column;
