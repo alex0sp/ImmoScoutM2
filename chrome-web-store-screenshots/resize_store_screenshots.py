@@ -21,7 +21,6 @@ JPEG_QUALITY = 92
 # Source PNG filenames in this directory -> output base name
 JOBS = [
     ("single price green.png", "single-price-green"),
-    ("single price red.png", "single-price-red"),
     ("price range.png", "price-range"),
     ("Farbeinstellungen.png", "farbeinstellungen"),
     ("Suchergebnisse.png", "suchergebnisse"),
