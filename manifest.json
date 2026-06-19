@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ImmoScout24 Tool: €/m² Preis-Badge & Quadratmeterpreis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ImmoScout24-Tool: zeigt den Preis pro m² (€/m²) als farbiges Badge in den Suchergebnissen – Immobilien schneller vergleichen.",
   "icons": {
     "16": "icon-16.png",

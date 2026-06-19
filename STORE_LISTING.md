@@ -67,8 +67,6 @@ Der Preis pro m² ist die wichtigste Kennzahl, um Immobilien fair zu vergleichen
 3. Der €/m²-Preis erscheint sofort als Badge auf jedem Inserat
 4. Optional: Farben und Preis-Schwellen im Menü der Erweiterung anpassen
 
-Verwandte Suchbegriffe: ImmoScout24, ImmoScout, ImmobilienScout24, ImmoScout24 Tool, ImmoScout Tool, ImmoScout24 Erweiterung, ImmoScout Plugin, ImmoScout Add-on, Chrome Erweiterung Immobilien, Immobilien Tool, Quadratmeterpreis, Quadratmeterpreis-Rechner, Preis pro m², €/m², Euro pro Quadratmeter, Immobilien vergleichen, Immobiliensuche, Wohnung kaufen, Haus kaufen, Wohnung mieten, Kaufpreis, Kapitalanlage.
-
 ℹ️ Hinweis: Diese Erweiterung ist ein unabhängiges, inoffizielles Tool und steht in keiner Verbindung zu ImmoScout24 bzw. der ImmobilienScout24 GmbH. Alle genannten Marken gehören den jeweiligen Eigentümern.
 
 💬 Fragen, Feedback oder Funktionswünsche? Schreib an founder@zlothai.com
